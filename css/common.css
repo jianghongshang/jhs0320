@@ -1,0 +1,65 @@
+html, body, div, p, span, font, em, ul, li, dl, dt, dd, table, tr, td, input, button, a {
+    margin: 0 auto;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+}
+.header
+{
+    height: 180px;
+    background-color: rgba(141, 207,244, 0.7)
+}
+.header .top
+{
+    height: 140px;
+    overflow:hidden;
+}
+.logo
+{
+    float: left;
+    margin-top: 46px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img
+{
+    border: 0;
+    vertical-align:top;
+}
+.search
+{
+    width: 270px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    float: right;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.search input{
+    height: 40px;
+    width: 210px;
+    float: left;
+    line-height: 40px;
+    border: 0;
+    font-size: 16px;
+    color: #1f5dba;
+    padding: 0 15px;
+}
+.search button
+{
+    float: right;
+    width: 60px;
+    height: 40px;
+    background: url(../images/search.png) #1f6fba center center no-repeat;
+    border: 0;
+
+}
+.container
+{
+    width: 1200px;
+}
